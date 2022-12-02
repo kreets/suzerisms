@@ -5,7 +5,7 @@ namespace Kreets\SuzoriSms;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 
-class SuzoriSms extends ServiceProvider
+class SuzoriSmsServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
