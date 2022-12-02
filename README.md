@@ -3,6 +3,8 @@
 ## INSTALLATION
 
 Run the command: `composer require kreets/suzorisms` to download the package into the Laravel platform.
+Add `\Kreets\SuzoriSms\SuzoriSmsServiceProvider::class` to the `providers` section in `config/app.php/`
+run `php artisan cache:clear`
 
 ## Config
 
